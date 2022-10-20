@@ -9,7 +9,10 @@ public class GitDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GitDemoApplication.class, args);
 		
-		System.out.println("Welcome to Git!");
+		String c[]= {"kishan","Sunitha","Vinay","Jyo","Sahasra"};
+		for(String p:c) {
+		System.out.println(p);
+		}
 	}
 
 }
